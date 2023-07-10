@@ -1,0 +1,130 @@
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+
+.form-textarea {
+  width: 100%;
+  padding: 8px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.variant-container {
+  margin-bottom: 20px;
+  width: 600px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.variant-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.variant-heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.remove-variant-btn {
+  background-color: rgb(246, 0, 0);
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.option-container {
+  margin-bottom: 10px;
+}
+
+.option-label-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-option-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.add-variant-btn {
+  background-color: #0074d9;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+
+.suboption-btn {
+  background-color: #d99100;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 40%;
+}
+
+.preview-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.preview-container {
+  width: 600px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.preview-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.preview-table th,
+.preview-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.submit-btn {
+  background-color: #0074d9;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input-price {
+  width: 90%;
+  padding: 8px;
+}
